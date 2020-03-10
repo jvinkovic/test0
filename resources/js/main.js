@@ -16,7 +16,7 @@ document.getElementById('add').addEventListener('click', function() {
   var value = document.getElementById('item').value;
   if (value) {
     addItem(value);
-  }
+  } 
 });
 
 document.getElementById('item').addEventListener('keydown', function (e) {
