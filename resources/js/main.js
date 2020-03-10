@@ -32,7 +32,7 @@ function addItem (value) {
 
   data.todo.push(value);
   dataObjectUpdated();
-}
+} 
 
 function renderTodoList() {
   if (!data.todo.length && !data.completed.length) return;
